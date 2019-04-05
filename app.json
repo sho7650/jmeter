@@ -1,0 +1,9 @@
+{
+  "name": "sho",
+  "description": "jmeter",
+  "repository": "https://github.com/sho7650/jmeter",
+  "keywords": ["test", "load", "performance", "stress"],
+  "env": {
+    "BUILDPACK_URL": "https://github.com/aripka-pivotal/cf-buildpack-jmeter.git"
+  }
+}
