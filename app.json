@@ -2,8 +2,18 @@
   "name": "sho",
   "description": "jmeter",
   "repository": "https://github.com/sho7650/jmeter",
-  "keywords": ["test", "load", "performance", "stress"],
-  "env": {
-    "BUILDPACK_URL": "https://github.com/sho7650/cf-buildpack-jmeter.git"
-  }
+  "keywords": [
+    "test",
+    "load",
+    "performance",
+    "stress"
+  ],
+  "buildpacks": [
+    {
+      "url": "git@github.com:heroku/heroku-buildpack-apt.git"
+    },
+    {
+      "url": "https://github.com/sho7650/cf-buildpack-jmeter.git"
+    }
+  ]
 }
