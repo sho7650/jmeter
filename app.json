@@ -10,6 +10,9 @@
   ],
   "buildpacks": [
     {
+      "url": "heroku/java"
+    },
+    {
       "url": "https://github.com/sho7650/cf-buildpack-jmeter.git"
     }
   ]
